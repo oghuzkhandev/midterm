@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.abovelinks{
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+.abovelinks a{
+    text-decoration: none;
+    color: gray;
+    padding: 0 50px;
+}
+.abovelinks a span:hover{
+    color: white;
+    text-shadow: 2px 2px 10px red;
+}
+.container{
+    background-image: url(kbxP17.jpg);
+    height: 94.5vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.formcontent{
+    position: absolute;
+    left: 33%;
+    top: 10%;
+}
+.formbox{
+    width: 650px;
+    padding: 20px;
+    background: #888;
+    border-radius: 3px;
+    box-shadow: 0 0 20px white;
+    padding: 50px;
+    color: white;
+    background-color: rgba(0,0,0,0.6);
+}
+label{
+    display: block;
+    margin-bottom: 8px;
+}
+input{
+    width: 400px;
+    padding: 8px;
+    margin-bottom: 16px;
+    border-radius: 5px;
+}
+.formlist{
+    display: inline-block;
+    padding: 15px 0;
+}
+.additional-text {
+    font-size: 14px;
+    color: white;
+    display: block;
+}
+button{
+    color: white;
+    background-color: rgb(74, 190, 152);
+    border: 1px solid rgb(74, 190, 152);
+    padding: 8px 75px;
+    margin-top: 10px;
+    border-radius: 7px;
+}
+button:hover{
+    box-shadow: 0px 0px 15px aquamarine;
+}
+.formlist.names{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 30px;
+}
+.formlist.names input{
+    width: 170px;
+}
+.formlist.names input[id="lname"]{
+    margin-left: 30px;
+}
+.formlist.names input[id="fname"]{
+    margin-left: 30px;
+}
+.spans{
+    display: flex;
+}
+.spans :nth-child(1){
+    margin-left: 130px;
+}
+.spans :nth-child(2){
+    margin-left: 195px;
+}
+.formlist.company{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.formlist.company select{
+    width: 428px;
+}
+.formlist.emails{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.formlist.emails input{
+    width: 428px;
+}
+.formlist.phones{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 30px;
+    margin-top: 20px;
+}
+.formlist.phones input{
+    width: 250px;
+}
+.formlist.subject{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+select:nth-child(2){
+    width: 95px;
+    padding: 6.5px;
+    margin-bottom: 16px;
+    border-radius: 5px;
+}
+.formlist.subject select{
+    width: 428px;
+}
+.spans2{
+    display: flex;
+}
+.spans2 :nth-child(1){
+    margin-left: 125px;
+}
+.spans2 :nth-child(2){
+    margin-left: 120px;
+}
+input,select{
+    border: 1.5px solid #888;
+}
+span{
+    color: white;
+}
+
+

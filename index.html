@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="midterm1.css">
+</head>
+<body>
+    <div class="allcontainer">
+        <div class="abovelinks">
+            <a href="empty.html"><span>Home</span></a>
+            <a href="empty.html"><span>Categories</span></a>
+            <a href="empty.html"><span>About</span></a>
+            <a href="empty.html"><span>Contact</span></a>
+        </div>
+    <div class="container"></div>
+        <div class="formcontent">
+            <div class="formbox">
+                <form action="#" method="post">
+                    <div class="formlist names">
+                        <label for="name">Name</label>
+                        <input type="text" id="fname" name="fname" required>
+                        <input type="text" id="lname" name="lname" required>
+                    </div>
+                    <div class="spans">
+                        <span class="additional-text">First Name</span>
+                        <span class="additional-text">Last Name</span>
+                    </div>
+
+                    <div class="formlist company">
+                        <label for="company">Company</label>
+                        <select id="company" name="company" required>
+                        </select>
+                    </div>
+                  
+                    <div class="formlist emails">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                  
+                    <div class="formlist phones">
+                        <label for="phone">Phone</label>
+                        <select id="areaCode" name="areaCode" class="areaCode">
+                            <option value="90">+90</option>
+                        </select>
+                        <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" placeholder="Enter 10-digit Turkish phone number" required>
+                    </div>
+                    <div class="spans2">
+                        <span class="additional-text">Area Code</span>
+                        <span class="additional-text">Phone Number</span>
+                    </div>
+                  
+                    <div class="formlist subject">
+                        <label for="subject">Subject</label>
+                        <select id="subject" name="subject" required>
+                            <option value="#" class="choose">Choose Option</option>
+                        </select>
+                    </div>
+
+                    <p style="padding: 20px 0;">Are you beginner?</p>
+
+                    <div class="beginner">
+                        <input type="radio" name="yes" id="yes" style="width: 20px;" > Yes 
+                        <input type="radio" name="no" id="no" style="width: 20px; margin-left: 70px;"> No
+                    </div>
+                    
+                    <button style="display: block;">Register</button>
+                </form>
+            </div>
+        </div>
+    </div>
+        <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+        <script src="midterm1.js"></script>
+        
+    </div>
+    
+</body>
+</html>
